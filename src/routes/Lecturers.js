@@ -1,5 +1,5 @@
 import express from 'express';
-import { verifyToken } from '../auth.js';
+import { verifyToken } from '../Auth.js';
 import mongoose from 'mongoose';
 import multer from 'multer';
 import { LecturerModel } from "../models/Lecturers.js"
