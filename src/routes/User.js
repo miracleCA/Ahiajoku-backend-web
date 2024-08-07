@@ -1,5 +1,5 @@
 import express from 'express';
-import { verifyToken } from '../auth.js';
+import { verifyToken } from '../Auth.js';
 import mongoose from 'mongoose';
 import { UserModel } from "../models/User.js";
 
