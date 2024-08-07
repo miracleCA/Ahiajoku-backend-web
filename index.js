@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 import "dotenv/config";
 
-import authRoutes from "./src/auth.js";
+import authRoutes from "./src/Auth.js";
 import userRoutes from "./src/routes/User.js";
 import LecturerRoutes from "./src/routes/Lecturers.js";
 import LectureNotesRoutes from "./src/routes/LectureNotes.js";
